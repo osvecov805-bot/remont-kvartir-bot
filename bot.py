@@ -6,8 +6,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
-ADMIN_CHAT_ID = os.environ.get('ADMIN_CHAT_ID', '7692089613')
+BOT_TOKEN = '8793579311:AAF8-RhzYzYB60mdOx9InSGqBHbEONC5ZW8'
+ADMIN_CHAT_ID = '7692089613'
 
 def main_menu_keyboard():
     keyboard = [
